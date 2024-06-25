@@ -1,29 +1,22 @@
 "use client";
-import { useState } from "react";
-// import { useContext } from "react";
-// import { TranslateContext } from "../utils/TranslateContext";
-// import { useTranslation } from "react-i18next";
-
+import { useContext } from "react";
+import { TranslateContext } from "../utils/TranslateContext";
 function Switchlanguage() {
-  const [isAr, setIsAr] = useState(false);
-  // const { handleChangeLan, ArLang } = useContext(TranslateContext);
-  // const { t } = useTranslation("global");
+  const { handleChangeLanAr, ArLang, handleChangeLanEn } = useContext(TranslateContext);
 
   return (
-    <div className="flex justify-end mb-[30px] text-[18px] ">
+    <div className="flex justify-end mb-[30px] text-[16px] ">
       <button
-        onClick={() => setIsAr(true)}
-        // onClick={() => handleChangeLan("ar")}
-        className="mr-1  "
-        style={{ color: isAr ? "#74f6d7" : "black" }}
+        onClick={() => handleChangeLanAr()}
+        className="mx-1  "
+        style={{ color: ArLang ? "#74f6d7" : "black" }}
       >
         AR
       </button>{" "}
       <button
-        onClick={() => setIsAr(false)}
-        // onClick={() => handleChangeLan("en")}
-        className="ml-1"
-        style={{ color: isAr ? "black" : "#74f6d7" }}
+        onClick={() => handleChangeLanEn()}
+        
+        style={{ color: ArLang ? "black" : "#74f6d7" }}
       >
         EN
       </button>

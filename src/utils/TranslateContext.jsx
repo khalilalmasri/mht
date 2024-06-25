@@ -1,17 +1,20 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-
 const TranslateContext = createContext();
-
-// eslint-disable-next-line react/prop-types
 function TranslateProvider({ children }) {
   const [ArLang, setArLang] = useState(false);
   const { i18n } = useTranslation("global");
-  function handleChangeLan(lang) {
-    setArLang(!ArLang);
-    i18n.changeLanguage(lang);
-    localStorage.setItem("lang", lang);
+
+  function handleChangeLanAr() {
+    setArLang(true);
+    i18n.changeLanguage("ar");
+    localStorage.setItem("lang", "ar");
+  }
+  function handleChangeLanEn() {
+    setArLang(false);
+    i18n.changeLanguage("en");
+    localStorage.setItem("lang", "en");
   }
   useEffect(() => {
     if (localStorage.getItem("lang").includes("ar")) {
@@ -20,10 +23,12 @@ function TranslateProvider({ children }) {
       setArLang(false);
     }
     i18n.changeLanguage(localStorage.getItem("lang"));
-  }, [i18n.changeLanguage]);
+  }, []);
   return (
-    <TranslateContext.Provider value={{ handleChangeLan, setArLang, ArLang }}>
-      <div dir={ArLang ? "rtl" : "ltr"}>{children}</div>
+    <TranslateContext.Provider
+      value={{ handleChangeLanEn, handleChangeLanAr, setArLang, ArLang }}
+    >
+      <div dir={ArLang ? "rtl" : "ltr"}> {children}</div>
     </TranslateContext.Provider>
   );
 }

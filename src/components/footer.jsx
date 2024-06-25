@@ -40,17 +40,13 @@ const Footer = () => {
       <div className="text-[18px] w-1/3">
         <div className="h-full"></div>
         <div className="flex gap-2 absolute text-center justify-items-center mt-[-70px] ">
-          <Link className="hover:mt-[-30px]  hover:duration-1000" href={""}>
+          <Link className="hover:animate-pulse hover:duration-500" href={""}>
             <Image src={face} alt="" height={40} width={40}></Image>
           </Link>
-          <Link className="hover:mt-[-30px]  hover:duration-1000" href={""}>
+          <Link className="hover:animate-pulse hover:duration-500" href={""}>
             <Image src={insta} alt="" height={40} width={40}></Image>
           </Link>
-          <Link
-            className="hover:mt-[-30px]  hover:duration-1000
-          "
-            href={""}
-          >
+          <Link className="hover:animate-pulse hover:duration-500" href={""}>
             <Image src={linkedin} alt="" height={40} width={40}></Image>
           </Link>
         </div>
@@ -63,7 +59,7 @@ const Footer = () => {
             {" "}
             <div className="w-full"></div>
             <Link
-              className="mr-1  flex flex-row gap-2 my-5  hover:animate-pulse hover:duration-500"
+              className="mr-1  flex flex-row gap-2 my-5  "
               href={""}
             >
               <Image src={dadh} alt=""></Image>

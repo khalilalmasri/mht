@@ -17,11 +17,11 @@ const Form_box = () => {
       </div>
       <div className="w-full h-[650px]  bg-[#7cfcf6] flex  p-2 text-center justify-center">
         <div className=" sm:w-1/2 flex-col">
-          <p className="m-4 mt-28 sm:text-3xl  ">
+          <p className="m-4 mt-28 sm:text-3xl tracking-tighter   ">
             Join the waiting list, seize the opportunity and be one of the first
             to experience Mhtaref
           </p>
-          <p className=" text-white sm:mt-16 text-2xl sm:text-5xl  fontAbsolute  tracking-[0.1em] ">
+          <p className=" text-white sm:mt-14 text-2xl sm:text-5xl  fontAbsolute  tracking-[0.1em] ">
             Join the waiting list
           </p>
           <Formr className=" w-full sm:w-1/2 " />
