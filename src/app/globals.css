@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SamsungSans-Bold';
+  src: url('../../public/asset/SamsungSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AbsoluteRegular';
+  src: url('../../public/asset/TheAbsoluteRegular.woff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.samsungBold{font-family: SamsungSans-Bold}
+.fontAbsolute{font-family: AbsoluteRegular}

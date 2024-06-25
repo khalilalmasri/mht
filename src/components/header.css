@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'AbsoluteRegular';
+    src: url('../../public/asset/TheAbsoluteRegular.woff') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SamsungSans-Regular';
+    src: url('../../public/asset/SamsungSans-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SamsungSans-Bold';
+    src: url('../../public/asset/SamsungSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SamsungSans-Light';
+    src: url('../../public/asset/SamsungSans-Light.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SamsungSans-Thin';
+    src: url('../../public/asset/SamsungSans-Thin.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'bebas';
+    src: url('../../public/asset/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  .fontAbsolute{font-family: AbsoluteRegular}
+  .samsungRegular{font-family: SamsungSans-Regular}
+  .samsungBold{font-family: SamsungSans-Bold}
+  .samsungLight{font-family: SamsungSans-Light}
+  .samsungThin{font-family: SamsungSans-Thin}
+  .bebas{font-family: bebas}
+
+
