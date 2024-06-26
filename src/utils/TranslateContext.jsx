@@ -17,7 +17,7 @@ function TranslateProvider({ children }) {
     localStorage.setItem("lang", "en");
   }
   useEffect(() => {
-    if (localStorage.getItem("lang").includes("ar")) {
+    if (localStorage.getItem("lang")?.includes("ar")) {
       setArLang(true);
     } else {
       setArLang(false);
