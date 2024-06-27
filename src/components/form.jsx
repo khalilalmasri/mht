@@ -30,9 +30,9 @@ function Formr() {
   };
 
   return (
-    <div className="mt-10  flex text-center justify-center  ">
+    <div className="mt-10  flex text-center justify-center ">
       <form
-        className=" flex flex-col text-center justify-center gap-2 w-4/5 sm:w-1/2"
+        className=" flex flex-col text-center justify-center gap-2 w-4/5 sm:w-2/3"
         onSubmit={handleSubmit}
       >
         <input
@@ -60,7 +60,7 @@ function Formr() {
           required
         />
         <button
-          className="bg-black text-white h-14 p-2 rounded-lg text-xl  hover:animate-pulse hover:duration-500 "
+          className="bg-black text-white h-14 p-2 rounded-lg text-xl mb-10"
           type="submit"
         >
           Join the waiting list{" "}

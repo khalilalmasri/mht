@@ -5,7 +5,7 @@ function Switchlanguage() {
   const { handleChangeLanAr, ArLang, handleChangeLanEn } = useContext(TranslateContext);
 
   return (
-    <div className="flex justify-end mb-[30px] text-[16px] ">
+    <div className="flex justify-end mb-[30px] text-[16px] me-2 sm:me-0 ">
       <button
         onClick={() => handleChangeLanAr()}
         className="mx-1  "

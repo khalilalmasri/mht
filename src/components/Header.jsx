@@ -3,26 +3,20 @@ import logo from "../../public/images/logo.svg";
 import "./header.css";
 import Switchlanguage from "./switchlanguage";
 import Switch_section from "./switch-section";
-import MyComponent from "./test";
 function Header() {
   return (
-    <div className="   my-6 mx-12 text-[20px] text-[#040404] font-bold flex justify-between tracking-tighter leading-9">
+    <div className=" my-3  sm:my-6 mx:2 sm:mx-12 text-[14px]  sm:text-[20px] text-[#040404] sm:font-bold flex justify-between sm:tracking-tighter sm:leading-9">
       <div className="flex-column">
         <div className="flex flex-row  ">
-          <div className="hidden sm:block mt-auto mr-[-15px]   ">
+          <div className="hidden sm:block mt-auto sm:mr-[-15px]   ">
             The ultimate{" "}
           </div>
-          <Image
-            className="pb-3 flex flex-row "
-            src={logo}
-            alt=""
-
-          />
+          <Image className="pb-3 flex flex-row w-[100px] sm:w-[150px] ms-3 sm:ms-0 " src={logo} alt="" />
         </div>
 
         <span className="hidden sm:block">freelancing marketplace.</span>
       </div>
-      <div className="pb-[22px] mr-4 ">
+      <div className="sm:pb-[22px] sm:mr-4 ">
         <Switchlanguage />
         <Switch_section />
       </div>

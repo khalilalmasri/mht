@@ -9,13 +9,11 @@ function Switch_section() {
   const [isFreelancer, setIsFreelancer] = useState(true);
   const { t } = useTranslation("global");
   return (
-    <div className=" flex items-center justify-between   ">
+    <div className="  flex items-center sm:justify-between me-2 sm:me-0   ">
       <Image
-        className="px-1 mx-1 "
+        className="px-1 sm:mx-1 w-[15px] sm:w-[20px]  "
         src={traingle}
         alt=""
-        width={20}
-        height={20}
       />
       <Link
         onClick={() => setIsFreelancer(true)}
@@ -30,11 +28,9 @@ function Switch_section() {
       </Link>
 
       <Image
-        className="px-1 mx-1 "
+        className="px-1 sm:mx-1 w-[15px] sm:w-[20px]   "
         src={traingle}
         alt=""
-        width={20}
-        height={20}
       />
 
       <Link

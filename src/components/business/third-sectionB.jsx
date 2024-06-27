@@ -3,7 +3,7 @@ import budget from "../../../public/images/business/budget.svg";
 
 const Third_section_B = () => {
   return (
-    <div className="sm:flex   items-center  sm:mx-12 min-h-[400px] my-20 ">
+    <div className="sm:flex sm:flex-row flex flex-col-reverse  items-center  sm:mx-12 min-h-[400px] my-20 ">
       <div className="sm:w-1/2  ">
         <div className="flex">
           <p className="  text-6xl fontAbsolute    text-[#74f6d7]  ">

@@ -18,12 +18,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="samsungBold max-w-7xl mx-auto">
+      <body className="samsungBold max-w-[1150px] mx-auto">
         <I18nextP>
           <TranslateProvider>
-            <Header />
+            <div className="container mx-auto">
+            <Header  />
             {children}
-            <Footer />
+            <Footer /> </div>
           </TranslateProvider>
         </I18nextP>
       </body>
