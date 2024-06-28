@@ -68,7 +68,7 @@ const Footer = () => {
         <div className="flex">
           <div className="w-1/3 "></div>
           <div className=" flex flex-col  text-center   ">
-            <Image className=" w-[100px] " src={logo} alt=""></Image>
+            <Image className=" w-[120px] " src={logo} alt=""></Image>
             <p className="mt-3">The ultimate </p>
             <p>freelancing marketplace.</p>
             {/* <div className="h-full"></div> */}
