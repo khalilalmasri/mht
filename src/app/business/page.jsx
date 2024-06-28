@@ -10,11 +10,12 @@ function BusinessPage() {
     <div>
       <IndependenceBusiness />
       <HrB />
-      <First_section_B />
-      <Second_section_b />
-      <Third_section_B />
+      <div className="SamsungOne-700 text-[20px]">
+        <First_section_B />
+        <Second_section_b />
+        <Third_section_B />
+      </div>
       <Form_box />
-
     </div>
   );
 }

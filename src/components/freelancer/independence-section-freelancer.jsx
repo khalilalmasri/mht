@@ -3,22 +3,26 @@ import preson from "../../../public/images/freelancer/preson.png";
 function IndependenceFleelancer() {
   // const { t } = useTranslation();
   return (
-    <div className="bg-[#faf6ac] my-6 ms-3 me-6 sm:me-16 sm:ms-12 text-[24px] text-[#040404] rounded-2xl  ">
-      <div className="sm:position-relative sm:relative content flex sm:justify-between  ms-6">
+    <div className="bg-[#faf6ac]  my-6 ms-4 me-4 sm:me-16 sm:ms-12 text-[24px] text-[#040404] sm:rounded-2xl  ">
+      <div className="sm:position-relative sm:relative content flex flex-col sm:flex-row sm:justify-between  ms-6">
         <div>
-          <div className=" mt-16 sm:mt-44">
-            <p className=" text-[15px] sm:text-4xl text-[#ff8400] sm:ms-2 my-1 tracking-wide ">
+          <div className=" mt-6 sm:mt-44 text-center sm:text-start ">
+            <p className=" SamsungOne-bold text-3xl sm:text-4xl text-[#ff8400] sm:ms-2 sm:my-1 tracking-wide ">
               Your Path to
             </p>
-            <h2 className="fontAbsolute text-2xl sm:text-7xl sm:mt-[-3px] font-extrabold text-[#040404] tracking-wide">
+            <h2 className="fontAbsolute text-6xl sm:text-7xl sm:mt-[-3px] font-extrabold text-[#040404] sm:tracking-wide">
               independence
             </h2>
           </div>
-          <p className="hidden sm:block text-sm sm:text-[18px] mt-28 sm:mt-60 mb-4 me-2 ">
+          <p className=" SamsungOne-bold text-[12px] sm:text-[18px] mt-2 sm:mt-64 mb-4 sm:me-2 mx-12 sm:mx-auto text-center sm:text-start ">
             Join Mhtaref.com and unlock a world of freelance opportunities!
           </p>
         </div>
-        <Image className=" ms-[-20px]  sm:me-[-50px]  mt-3 w-4/5  "  src={preson} alt="" />
+        <Image
+          className=" sm:w-4/5 sm:mt-3 ms-[10px] sm:ms-0  "
+          src={preson}
+          alt=""
+        />
       </div>
     </div>
   );

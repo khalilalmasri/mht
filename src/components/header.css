@@ -35,8 +35,35 @@
     font-weight: bold;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'SamsungOne_400';
+    src: url('../../public/asset/SamsungOne-400.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SamsungOne_700';
+    src: url('../../public/asset/SamsungOne-700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SamsungSharpSans-Bold';
+    src: url('../../public/asset/SamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
 
 
+
+
+
+  /* SamsungOne-400.ttf */
+  /* SamsungOne-700.ttf */
+  /* SamsungSharpSans-Bold.ttf */
+  .SamsungOne-400{font-family: SamsungOne_400}
+  .SamsungOne-700{font-family: SamsungOne_700}
+  .SamsungOne-bold{font-family: SamsungSharpSans-Bold}
   .fontAbsolute{font-family: AbsoluteRegular}
   .samsungRegular{font-family: SamsungSans-Regular}
   .samsungBold{font-family: SamsungSans-Bold}
@@ -44,4 +71,6 @@
   .samsungThin{font-family: SamsungSans-Thin}
   .bebas{font-family: bebas}
 
-
+  
+  
+  

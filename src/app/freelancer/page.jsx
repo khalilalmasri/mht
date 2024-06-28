@@ -11,10 +11,12 @@ function FreelancerPage() {
     <div>
       <IndependenceFleelancer />
       <Hrc />
-      <First_section />
-      <Second_section />
-      <Thierd_section />
-      <Forth_section />
+      <div className="SamsungOne-700  ">
+        <First_section />
+        <Second_section />
+        <Thierd_section />
+        <Forth_section />{" "}
+      </div>
       <Form_box />
     </div>
   );

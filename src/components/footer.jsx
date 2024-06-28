@@ -9,56 +9,111 @@ import dadh from "../../public/icons/dadh.svg";
 
 const Footer = () => {
   return (
-    <div className=" my-6 mx-2 sm:mx-12 text-sm sm:text-[24px] text-[#040404] font-bold flex justify-between">
-      <div className="sm:text-[18px] sm:w-1/3">
-        <Image className="sm:pb-5 w-[100px] sm:w-[150px]" src={logo} alt=""></Image>
-        <p className="hidden sm:block">The ultimate </p>
-        <p className="hidden sm:block">freelancing marketplace.</p>
-
-        <Link className="flex flex-row gap-1 sm:gap-2 my-7" href={""}>
+    <>
+      <div className=" hidden sm:flex SamsungOne-bold my-6 mx-2 sm:mx-12 text-sm sm:text-[17px] text-[#040404] font-bold  justify-between sm:mb-28">
+        <div className=" sm:w-1/3">
           <Image
-            className="sm:me-1 sm:my-1 w-[15px] h-[15px] sm:w-[20px] sm:h-[20px]"
-            src={sent}
+            className="sm:pb-5 w-[100px] sm:w-[150px]"
+            src={logo}
             alt=""
           ></Image>
-          <p className="text-sm sm:text-[18px]">info@mhtaref.com</p>
-        </Link>
+          <p className="hidden sm:block">The ultimate </p>
+          <p className="hidden sm:block">freelancing marketplace.</p>
 
-        <p className="text-sm sm:text-[18px]">© 2024 Mhtaref, All rights reserved.</p>
-      </div>
-      <div className="text-[18px] w-1/3">
-        <div className="h-full"></div>
-        <div className="flex gap-2 absolute text-center justify-items-center mt-[-70px] ">
-          <Link href={""}>
-            <Image src={face} alt="" height={40} width={40}></Image>
+          <Link className="flex flex-row gap-1 sm:gap-2 my-7" href={""}>
+            <Image
+              className="sm:me-1 sm:my-1 w-[15px] h-[15px] sm:w-[20px] sm:h-[20px]"
+              src={sent}
+              alt=""
+            ></Image>
+            <p>info@mhtaref.com</p>
           </Link>
-          <Link href={""}>
-            <Image src={insta} alt="" height={40} width={40}></Image>
-          </Link>
-          <Link href={""}>
-            <Image src={linkedin} alt="" height={40} width={40}></Image>
-          </Link>
+
+          <p>© 2024 Mhtaref, All rights reserved.</p>
         </div>
-      </div>
-
-      <div className="text-[18px] ">
-        <div className="h-full"></div>
-        <div className="mt-[-80px]">
-          <div className="flex">
-            {" "}
-            <div className="w-full"></div>
-            <Link className="mr-1  flex flex-row gap-2 my-5  " href={""}>
-              <Image src={dadh} alt=""></Image>
+        <div className="text-[18px] w-1/3">
+          <div className="h-full"></div>
+          <div className="flex gap-2 absolute text-center justify-items-center mt-[-70px] ">
+            <Link href={""}>
+              <Image src={face} alt=""></Image>
+            </Link>
+            <Link href={""}>
+              <Image src={insta} alt=""></Image>
+            </Link>
+            <Link href={""}>
+              <Image src={linkedin} alt=""></Image>
             </Link>
           </div>
-          <div className="flex mt-[-20px]">
-            <p>A Dadh </p>
-            <p className="text-[10px] ">TM</p>
-            <p>Company</p>
+        </div>
+
+        <div>
+          <div className="h-full"></div>
+          <div className="mt-[-80px]">
+            <div className="flex">
+              {" "}
+              <div className="w-full"></div>
+              <Link className="flex my-5  " href={""}>
+                <Image src={dadh} alt=""></Image>
+              </Link>
+            </div>
+            <div className="flex mt-[-15px] ">
+              <p>A Dadh </p>
+              <p className="text-[8px] ">TM</p>
+              <p>Company</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div className=" sm:hidden flex flex-col  SamsungOne-bold my-12 mx-4  text-[10px]  text-[#040404] ">
+        <div className="flex">
+          <div className="w-1/3 "></div>
+          <div className=" flex flex-col  text-center   ">
+            <Image className=" w-[100px] " src={logo} alt=""></Image>
+            <p className="mt-3">The ultimate </p>
+            <p>freelancing marketplace.</p>
+            {/* <div className="h-full"></div> */}
+            <div className="flex gap-1 my-5 text-center justify-items-center ">
+              <Link href={""}>
+                <Image src={face} alt=""></Image>
+              </Link>
+              <Link href={""}>
+                <Image src={insta} alt=""></Image>
+              </Link>
+              <Link href={""}>
+                <Image src={linkedin} alt=""></Image>
+              </Link>
+            </div>
+            <div className="w-1/3"></div>
+          </div>
+        </div>
+        <div className="flex mt-10">
+          <div className="w-2/3 ">
+            <div className="h-1/3"></div>
+            <Link className="flex gap-1  my-1" href={""}>
+              <Image className=" w-[15px] h-[15px] " src={sent} alt=""></Image>
+              <p>info@mhtaref.com</p>
+            </Link>
+
+            <p>© 2024 Mhtaref, All rights reserved.</p>
+          </div>
+          <div className="w-1/3 mt-[-5px]">
+            <div className="flex">
+              <div className="w-2/3"></div>
+
+              <Link href={""}>
+                <Image src={dadh} alt=""></Image>
+              </Link>
+            </div>
+            <div className="flex ">
+              <div className="w-1/3"></div>
+              <p>A Dadh </p>
+              <p className="text-[8px]">TM</p>
+              <p>Company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

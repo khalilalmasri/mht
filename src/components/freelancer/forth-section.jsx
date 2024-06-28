@@ -3,13 +3,13 @@ import br from "../../../public/images/freelancer/br.svg";
 
 const Forth_section = () => {
   return (
-    <div className="sm:flex  items-center mx-4  sm:mx-12 min-h-[400px] my-20 ">
-      <div className="sm:w-1/2 ">
+    <div className="sm:flex-row  sm:flex items-center mx-4  sm:mx-12 min-h-[300px] my-10 sm:my-20 ">
+      <div className="sm:w-1/2 mx-6 sm:mx-auto ">
         <Image className="w-full h-full sm:pe-6" src={br} alt="" />
       </div>
       <div className="sm:w-1/2  ">
-        <h2 className=" sm:text-2xl mt-5 sm:ps-20 mb-1">Professional Development</h2>
-        <p className="  font-large mt-2 text-[#4f4f4f] sm:ps-20 ">
+        <h2 className=" sm:text-2xl SamsungOne-bold text-[16px] text-center sm:text-start mt-5 sm:ps-20 mb-1">Professional Development</h2>
+        <p className="  text-[12px] sm:text-[18px] text-center sm:text-start mt-2 text-[#4f4f4f] sm:ps-20 ">
           Mhtaref.com offers resources, tutorials, and expert advice to help you
           enhance your freelance skills and grow professionally. Access valuable
           insights, stay updated on industry trends, and sharpen your expertise
