@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex mt-10">
-          <div className="w-2/3 ">
+          <div className="w-2/3 mt-[-15px] ">
             <div className="h-1/3"></div>
             <Link className="flex gap-1  my-1" href={""}>
               <Image className=" w-[15px] h-[15px] " src={sent} alt=""></Image>
@@ -98,17 +98,17 @@ const Footer = () => {
           </div>
           <div className="w-1/3 mt-[-5px]">
             <div className="flex">
-              <div className="w-2/3"></div>
+              <div className="w-full"></div>
 
               <Link href={""}>
-                <Image src={dadh} alt=""></Image>
+                <Image src={dadh} alt="" width={30} height={30}></Image>
               </Link>
             </div>
-            <div className="flex ">
+            <div className="flex mt-2 ">
               <div className="w-full"></div>
               <p className="me-[1px]">A</p>
               <p>Dadh </p>
-              <p className="text-[6px] me-[2px]">TM</p>
+              <p className="text-[6px] me-[3px]">TM</p>
               <p>Company</p>
             </div>
           </div>
