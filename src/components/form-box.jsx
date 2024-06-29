@@ -19,7 +19,7 @@ const Form_box = () => {
         </p>
         <div></div>
       </div>
-      <div className="w-full h-auto  bg-[#7cfcf6] flex  p-2 text-center justify-center">
+      <div className="w-full h-auto  bg-[#7cfcf6] flex  p-2 rounded-b-2xl text-center justify-center">
         <div className=" sm:w-1/2 flex-col">
           <p className=" SamsungOne-bold text-center mx-6 sm:m-4 mt-16 sm:mt-28 text-[12px] sm:text-xl    ">
             Join the waiting list, seize the opportunity and be one of the first

@@ -10,7 +10,7 @@ function BusinessPage() {
     <div>
       <IndependenceBusiness />
       <HrB />
-      <div className="SamsungOne-700 text-[20px]">
+      <div className="SamsungOne-700 ">
         <First_section_B />
         <Second_section_b />
         <Third_section_B />

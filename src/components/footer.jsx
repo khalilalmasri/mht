@@ -96,7 +96,7 @@ const Footer = () => {
 
             <p>© 2024 Mhtaref, All rights reserved.</p>
           </div>
-          <div className="w-1/3 mt-[-5px]">
+          <div className="w-1/3 ">
             <div className="flex">
               <div className="w-full"></div>
 
@@ -104,7 +104,7 @@ const Footer = () => {
                 <Image src={dadh} alt="" width={30} height={30}></Image>
               </Link>
             </div>
-            <div className="flex mt-2 ">
+            <div className="flex mt-[3px] ">
               <div className="w-full"></div>
               <p className="me-[1px]">A</p>
               <p>Dadh </p>

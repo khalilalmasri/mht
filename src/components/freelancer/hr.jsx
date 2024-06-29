@@ -5,7 +5,7 @@ const Hrc = () => {
       <div className="w-full ms-[-20px] sm:ms-4  sm:my-4 ">
         {" "}
         <div className="h-full "></div>
-        <hr className=" border-[1px] sm:border-2 ms-6 sm:ms-0 mt-[-10px] sm:mt-1 border-[#040404]" />
+        <hr className=" border-[1px] sm:border-2 ms-10 sm:ms-0 mt-[-10px] sm:mt-1 border-[#040404]" />
       </div>
     </div>
   );
