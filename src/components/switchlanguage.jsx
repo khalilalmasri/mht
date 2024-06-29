@@ -6,7 +6,7 @@ function Switchlanguage() {
     useContext(TranslateContext);
 
   return (
-    <div className="flex justify-end space-x-2 sm:space-x-3 mb-[15px] sm:mb-[30px] text-[10px] sm:text-[16px] me-2 sm:me-0 px-1 ">
+    <div className="flex justify-end space-x-3 mb-[5px] sm:mb-[30px] text-[12px] sm:text-[16px] me-2 sm:me-0 px-1 ">
       <button
         onClick={() => handleChangeLanAr()}
         style={{ color: ArLang ? "#74f6d7" : "black" }}

@@ -9,7 +9,7 @@ function Switch_section() {
   const [isFreelancer, setIsFreelancer] = useState(true);
   const { t } = useTranslation("global");
   return (
-    <div className="tracking-tight flex items-center sm:justify-between me-2 sm:me-0 mt-[30px] sm:mt-[-10px] text-[12px] sm:text-[18px]   ">
+    <div className="tracking-tight flex items-center sm:justify-between me-2 sm:me-0 mt-[30px] sm:mt-[-10px] text-[14px] sm:text-[18px]   ">
       <Image className="px-1 sm:mx-2 w-[15px]  " src={traingle} alt="" />
       <Link
         onClick={() => setIsFreelancer(true)}

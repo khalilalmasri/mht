@@ -3,7 +3,7 @@ import budget from "../../../public/images/business/budget.svg";
 
 const Second_section_b = () => {
   return (
-    <div className="  sm:flex   items-center  sm:mx-12 min-h-[400px] my-20 ">
+    <div className="  sm:flex   items-center  sm:mx-12 min-h-[350px] my-20 ">
       <div className="sm:w-1/2 ">
         <Image className="w-full h-full sm:pe-6" src={budget} alt="" />
       </div>

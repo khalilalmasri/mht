@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" sm:hidden flex flex-col  SamsungOne-bold my-12 mx-4  text-[10px]  text-[#040404] ">
+      <div className=" sm:hidden flex flex-col  SamsungOne-bold mt-12 mb-4 mx-4  text-[10px]  text-[#040404] ">
         <div className="flex">
           <div className="w-1/3 "></div>
           <div className=" flex flex-col  text-center   ">
@@ -108,7 +108,7 @@ const Footer = () => {
               <div className="w-full"></div>
               <p className="me-[1px]">A</p>
               <p>Dadh </p>
-              <p className="text-[6px]">TM</p>
+              <p className="text-[6px] me-[1px]">TM</p>
               <p>Company</p>
             </div>
           </div>

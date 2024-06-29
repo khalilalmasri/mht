@@ -3,7 +3,7 @@ import earthi from "../../../public/images/freelancer/earth.svg";
 
 const First_section = () => {
   return (
-    <div className=" sm:flex-row  flex flex-col-reverse  items-center mx-4 sm:mx-12 min-h-[300px] my-0 sm:my-20  ">
+    <div className=" sm:flex-row  flex flex-col-reverse  items-center mx-4 sm:mx-12 min-h-[350px] my-0 sm:my-20  ">
       <div className="sm:w-1/2 ">
         <h2 className=" SamsungOne-bold text-[16px] sm:text-2xl   mt-4  mb-1 text-center sm:text-start">Access to a Global Client Base</h2>
         <p className=" text-[12px] sm:text-[18px] text-center sm:text-start mt-2 text-[#4f4f4f] sm:pe-20 ">
