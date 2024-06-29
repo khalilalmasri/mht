@@ -7,7 +7,7 @@ import lbtn from "../../../public/images/business/lbtn.svg";
 
 const First_section_B = () => {
   return (
-    <div className="  sm:flex-row flex flex-col-reverse text-[20px]   items-center mx-4 sm:mx-12 min-h-[400px] my-20 ">
+    <div className="  sm:flex-row flex flex-col-reverse text-[20px]   items-center mx-4 sm:mx-12 min-h-[350] my-20 ">
       <div className="sm:w-1/2  ">
         <div className="flex">
           <p className=" SamsungOne-bold sm:text-2xl">Find the best</p>
@@ -18,13 +18,14 @@ const First_section_B = () => {
         <p className=" SamsungOne-bold sm:text-2xl mt-[-10px]">
           services for your business
         </p>
-        <div className="flex gap-1 my-1  ">
+        <div className=" w-1/3 sm:w-full flex gap-1 my-1  ">
           <Image src={rbtn} alt=""></Image>
           <Image src={mbtn} alt=""></Image>
           <Image src={lbtn} alt=""></Image>
         </div>
-        <Image className="w-full h-full" src={btns} alt="" />
-        <p className=" SamsungOne-700   mt-2 text-[#4f4f4f] sm:pe-20 ">
+
+        <Image className=" w-1/3 sm:w-full h-full " src={btns} alt="" />
+        <p className="  text-[12px] sm:text-[18px] text-center sm:text-start   mt-2 text-[#4f4f4f] sm:pe-20 ">
           Find the best talent and experience to grow your project profes,
           determine your rates, and select projects that align with your skills
           and interests. Embrace the freelance lifestyle on your own terms.

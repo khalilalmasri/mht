@@ -3,7 +3,7 @@ import layersf from "../../../public/images/freelancer/layersf.svg";
 
 const Second_section_f = () => {
   return (
-    <div className="  sm:flex-row  sm:flex items-center mx-4  sm:mx-12 min-h-[350px] my-10 sm:my-20 ">
+    <div className="  sm:flex-row  sm:flex items-center mx-4  sm:mx-12 min-h-[350px] my-20 ">
       <div className="sm:w-1/2 mx-6 sm:mx-auto">
         <Image className="w-full h-full sm:pe-6" src={layersf} alt="" />
       </div>

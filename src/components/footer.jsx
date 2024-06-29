@@ -108,7 +108,7 @@ const Footer = () => {
               <div className="w-full"></div>
               <p className="me-[1px]">A</p>
               <p>Dadh </p>
-              <p className="text-[6px] me-[1px]">TM</p>
+              <p className="text-[6px] me-[2px]">TM</p>
               <p>Company</p>
             </div>
           </div>
