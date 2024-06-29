@@ -6,10 +6,10 @@ import Switch_section from "./switch-section";
 function Header() {
   return (
     <>
-      <div className=" SamsungOne-bold mt-3 sm:my-3 mx:2 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex justify-between sm:tracking-tighter sm:leading-9 sm:h-[100px]">
-        <div className="flex-column">
+      <div className=" SamsungOne-bold mt-4 sm:my-3 mx:2 sm:mx-12 text-[7px]  sm:text-[18px] text-[#040404] sm:font-bold flex justify-between sm:tracking-tighter sm:leading-9 sm:h-[100px]">
+        <div className="  tracking-tight flex-column">
           <div className="flex flex-row  ">
-            <div className="hidden sm:flex mt-auto sm:mb-[-10px]  sm:mr-[-15px] ">
+            <div className=" hidden sm:flex mt-auto sm:mb-[-10px]  sm:mr-[-15px] ">
               The ultimate{" "}
             </div>
             <Image

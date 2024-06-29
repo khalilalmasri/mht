@@ -106,8 +106,9 @@ const Footer = () => {
             </div>
             <div className="flex ">
               <div className="w-full"></div>
-              <p>A.Dadh </p>
-              <p className="text-[8px]">TM</p>
+              <p className="me-[1px]">A</p>
+              <p>Dadh </p>
+              <p className="text-[6px]">TM</p>
               <p>Company</p>
             </div>
           </div>

@@ -1,9 +1,10 @@
 import Image from "next/image";
 import preson from "../../../public/images/freelancer/preson.png";
+import presonSm from "../../../public/images/freelancer/personfreesm.png";
 function IndependenceFleelancer() {
   // const { t } = useTranslation();
   return (
-    <div className="bg-[#faf6ac]  my-6 ms-4 me-4 sm:me-16 sm:ms-12 text-[24px] text-[#040404] sm:rounded-2xl  ">
+    <div className="bg-[#faf6ac]  my-6 ms-4 me-4 sm:me-16 sm:ms-12 text-[24px] text-[#040404] rounded-2xl  ">
       <div className="sm:position-relative sm:relative content flex flex-col sm:flex-row sm:justify-between  ms-6">
         <div>
           <div className=" mt-6 sm:mt-44 text-center sm:text-start ">
@@ -18,11 +19,8 @@ function IndependenceFleelancer() {
             Join Mhtaref.com and unlock a world of freelance opportunities!
           </p>
         </div>
-        <Image
-          className=" sm:w-4/5 sm:mt-3 ms-[10px] sm:ms-0  "
-          src={preson}
-          alt=""
-        />
+        <Image className=" hidden sm:block w-4/5 mt-3   " src={preson} alt="" />
+        <Image className="  sm:hidden  ms-[10px]   " src={presonSm} alt="" />
       </div>
     </div>
   );

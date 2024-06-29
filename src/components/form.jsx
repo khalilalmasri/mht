@@ -32,7 +32,7 @@ function Formr() {
   return (
     <div className=" SamsungOne-700 mt-6 sm:mt-10  flex text-center justify-center ">
       <form
-        className=" flex flex-col text-center justify-center gap-2 w-2/3"
+        className=" flex flex-col text-center justify-center gap-2 w-4/5 sm:w-2/3"
         onSubmit={handleSubmit}
       >
         <input

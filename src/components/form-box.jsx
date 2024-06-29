@@ -21,7 +21,7 @@ const Form_box = () => {
       </div>
       <div className="w-full h-auto  bg-[#7cfcf6] flex  p-2 text-center justify-center">
         <div className=" sm:w-1/2 flex-col">
-          <p className=" SamsungOne-bold text-center mx-12 sm:m-4 mt-16 sm:mt-28 text-[10px] sm:text-xl    ">
+          <p className=" SamsungOne-bold text-center mx-10 sm:m-4 mt-16 sm:mt-28 text-[12px] sm:text-xl    ">
             Join the waiting list, seize the opportunity and be one of the first
             to be notified of a Mhtaref Launch.
           </p>
