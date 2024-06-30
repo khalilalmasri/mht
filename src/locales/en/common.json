@@ -1,6 +1,18 @@
 {
     
        "freelancers": " For Freelancers",
-       "business": " For Business"
+       "business": " For Business",
+       "desc":{
+       "Access_to_a_Global_Client_Base":"Access to a Global Client Base",
+       "Access_to_desc":"At Mhtaref you can work with clients from around the world , increasing the variety of projects and potential for income. building a robust portfolio, enhancing reputation and attract-ing more clients.",
+       "Flexibility" : "Flexibility & Independence",
+       "Flexibility_desc" :"Enjoy the freedom of choosing when, where, and how you work.Mhtaref.com enables you to set your own schedule, determine your rates, and select projects that align with your skills and interests. Embrace the freelance lifestyle on your own terms.",
+       "Ease_of_Starting" : "Ease of Starting and Operating",
+       "Ease_of_desc" : "Being a freelancer on Mhtare mean you can turn any space into an office! Flexibility, autonomy, and the ability to balance work and personal life. Freelancers can earn money by leveraging their skills in a global market, reducing commute time, and using our platforms to find clients, manage projects, and receive payments efficiently.",
+       "Professional_Development" : "Professional Development",
+       "Professional_Development_desc" : " Mhtaref.com offers resources, tutorials, and expert advice to help you enhance your freelance skills and grow professionally. Access valuable insights, stay updated on industry trends, and sharpen your expertise to stay competitive in the ever-evolving freelance landscape. "
+
+}
+       
     
 }
