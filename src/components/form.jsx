@@ -1,7 +1,9 @@
 "use client";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Formr() {
+  const { t } = useTranslation("global");
   const [Name, setName] = useState("");
   const [profession, setProfession] = useState("");
   const [email, setEmail] = useState("");
@@ -18,7 +20,7 @@ function Formr() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     const data = {
       name: Name,
       profession: profession,
@@ -39,7 +41,7 @@ function Formr() {
           className="sm:h-14 p-2 rounded-lg placeholder-shown:border-gray-500 placeholder-shown:text-center sm:placeholder-shown:text-xl "
           type="text"
           value={Name}
-          placeholder="Name"
+          placeholder={t("form.Name")}
           onChange={(e) => setName(e.target.value)}
           required
         />
@@ -47,7 +49,7 @@ function Formr() {
           className="sm:h-14 p-2 rounded-lg placeholder-shown:border-gray-500 placeholder-shown:text-center sm:placeholder-shown:text-xl "
           type="text"
           value={profession}
-          placeholder="Profession"
+          placeholder={t("form.Profession")}
           onChange={(e) => setProfession(e.target.value)}
           required
         />
@@ -55,7 +57,7 @@ function Formr() {
           className="sm:h-14 p-2 rounded-lg placeholder-shown:border-gray-500 placeholder-shown:text-center sm:placeholder-shown:text-xl "
           type="text"
           value={email}
-          placeholder="Email address"
+          placeholder={t("form.Email_address")}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
@@ -63,7 +65,8 @@ function Formr() {
           className="bg-black text-white sm:h-14 p-2 rounded-lg sm:text-xl mb-10"
           type="submit"
         >
-          Join the waiting list{" "}
+          {t("form.Join_the_waiting_list")}
+          {/* Join the waiting list{" "} */}
         </button>
       </form>
     </div>
