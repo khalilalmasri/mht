@@ -12,7 +12,7 @@ function IndependenceBusiness() {
             src={personb}
             alt=""
           />
-          <div className=" mt-9 sm:mt-28 ms-[-100px] sm:ms-[-125px]">
+          <div className="  mt-9 sm:mt-28 ms-[-100px] sm:ms-[-125px]">
             <h2 className=" fontAbsolute  text-3xl sm:text-7xl   font-extrabold text-[#49daf9]">
               hire
             </h2>
@@ -26,12 +26,15 @@ function IndependenceBusiness() {
         </div>
       </div>
       <div className=" flex flex-col sm:hidden  bg-[#c9feff] my-6 ms-3 me-3  text-[24px] rounded-2xl text-[#040404]">
-        <div className=" ms-6 mt-8 ">
+        <div className=" text-center ms-6 mt-8 ">
           <h2 className=" fontAbsolute  text-4xl font-extrabold text-[#49daf9]">
             hire
           </h2>
           <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
-            the best freelance talent in the MENA region
+            the best freelance talent 
+          </p>
+          <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
+             in the MENA region
           </p>
           <p className=" fontAbsolute text-3xl  text-[#49daf9] mb-4  ">
             To grow your business.

@@ -18,7 +18,7 @@ function Formr() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     const data = {
       name: Name,
       profession: profession,

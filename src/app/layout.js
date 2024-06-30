@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
       <div className="container sm:mx-auto  SamsungOne-400 max-w-[1200px]">
         <I18nextP>
           <TranslateProvider>
-          
             <Header  />
             {children}
             <Footer /> 
