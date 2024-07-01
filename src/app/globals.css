@@ -15,6 +15,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "alfont_com_riyad-bank-Bold";
+  src: url("../../public/asset/alfont_com_riyad-bank-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+
+
+.riyadBank{font-family: alfont_com_riyad-bank-Bold}
 .samsungBold{font-family: SamsungSans-Bold}
 .fontAbsolute{font-family: AbsoluteRegular}
 

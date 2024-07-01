@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
       {/* <body className="samsungBold max-w-[1150px] mx-auto"> */}
       <body >
       <hr className="border-2 w-full border-[#49daf9] " />
-      <div className="container sm:mx-auto  SamsungOne-400 max-w-[1200px]">
+      <div className="container sm:mx-auto  
+      riyadBank
+       max-w-[1200px]">
         <I18nextP>
           <TranslateProvider>
             <Header  />

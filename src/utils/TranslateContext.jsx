@@ -1,6 +1,8 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import "../app/globals.css";
+
 const TranslateContext = createContext();
 function TranslateProvider({ children }) {
   const [ArLang, setArLang] = useState(false);
@@ -28,7 +30,13 @@ function TranslateProvider({ children }) {
     <TranslateContext.Provider
       value={{ handleChangeLanEn, handleChangeLanAr, setArLang, ArLang }}
     >
-      <div dir={ArLang ? "rtl" : "ltr"}> {children}</div>
+      <div
+        dir={ArLang ? "rtl" : "ltr"}
+         className="riyad-bank" 
+      >
+        {" "}
+        {children}
+      </div>
     </TranslateContext.Provider>
   );
 }

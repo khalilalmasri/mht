@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 function Switch_section() {
   const [isFreelancer, setIsFreelancer] = useState();
-  const { t } = useTranslation("global");
+  const { t , i18n } = useTranslation("global");
   useEffect(() => {
     if (localStorage.getItem("section")?.includes("freelancer")) {
       setIsFreelancer(true);
@@ -15,6 +15,7 @@ function Switch_section() {
       setIsFreelancer(false);
     }
   }, []);
+  
   function clickfreelancer() {
     setIsFreelancer(true);
     localStorage.setItem("section", "freelancer");
@@ -24,7 +25,8 @@ function Switch_section() {
     localStorage.setItem("section", "business");
   }
   return (
-    <div className="tracking-tight flex items-center sm:justify-between me-2 sm:me-0 mt-[30px] sm:mt-[-10px] text-[14px] sm:text-[18px]   ">
+    <div className={`tracking-tight flex items-center sm:justify-between me-2 sm:me-0 mt-[30px] sm:mt-[-10px] text-[14px] sm:text-[18px] ${i18n.language === 'ar' ? 'riyadBank' : 'SamsungOne-bold' }`}>
+      {/* <div className={`flex flex-row ${isCondition ? 'class-name' : ''}`}> */}
       <Image className="px-1 sm:mx-2 w-[15px]  " src={traingle} alt="" />
       <Link
         onClick={() => clickfreelancer()}
