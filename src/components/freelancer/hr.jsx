@@ -7,11 +7,11 @@ const Hrc = () => {
     <div
       className={` m-3 sm:my-12 sm:me-16 sm:ms-12 text-2xl  text-[#040404] flex ${
         i18n.language === "ar"
-          ? "riyadBank sm:text-6xl"
+          ? "riyadBank sm:text-5xl"
           : "SamsungOne-bold sm:text-5xl"
       }`}
     >
-      <h1 className=" w-1/2 sm:w-1/3">
+      <h1 className=" w-2/3 sm:w-1/2">
         {/* The ultimate freelancing marketplace. */}
         {t("slider.The_ultimate")}
       </h1>

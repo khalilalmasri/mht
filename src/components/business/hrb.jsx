@@ -1,10 +1,10 @@
 const HrB = () => {
   return (
-    <div className=" SamsungOne-bold m-3 sm:my-12 sm:me-16 sm:ms-12 text-lg sm:text-3xl text-[#040404] flex">
-      <div className="w-full  sm:w-2/5">
-        <h1 className="mb-2">Your development , </h1>
-        <h1 className="my-2"> expansion and </h1>
-        <h1 className="my-2"> success partner </h1>
+    <div className=" SamsungOne-bold m-3 sm:my-12 sm:me-16 sm:ms-12  sm:text-4xl text-[#040404] flex">
+      <div className="w-full  sm:w-1/2">
+        <h1 className="mb-2">Your development, expansion and success partner. </h1>
+        {/* <h1 className="my-2"> expansion and </h1> */}
+        {/* <h1 className="my-2"> success partner. </h1> */}
       </div>
       <div className="w-full  sm:ms-5 sm:my-4 ">
         {" "}

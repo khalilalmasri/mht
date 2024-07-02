@@ -46,18 +46,33 @@ function IndependenceBusiness() {
       </div>
       <div className=" flex flex-col sm:hidden  bg-[#c9feff] my-6 ms-3 me-3  text-[24px] rounded-2xl text-[#040404]">
         <div className=" text-center ms-6 mt-8 ">
-          <h2 className=" fontAbsolute  text-4xl font-extrabold text-[#49daf9]">
-            hire
-          </h2>
-          <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
-            the best freelance talent
-          </p>
-          <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
-            in the MENA region
-          </p>
-          <p className=" fontAbsolute text-3xl  text-[#49daf9] mb-4  ">
-            To grow your business.
-          </p>
+          <div className=" rtl:hidden">
+            <h2 className="  fontAbsolute  text-4xl font-extrabold text-[#49daf9]">
+              hire
+            </h2>
+            <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
+              the best freelance talent
+            </p>
+            <p className=" SamsungOne-bold  text-[17px]  text-[#0404040] me-4  mb-1 ">
+              in the MENA region
+            </p>
+            <p className=" fontAbsolute text-3xl  text-[#49daf9] mb-4  ">
+              To grow your business.
+            </p>
+          </div>
+
+          <div className=" ltr:hidden">
+            <h2 className=" text-4xl font-extrabold text-[#49daf9]">وَظِّف</h2>
+            <p className="   text-[17px]  text-[#0404040] me-4  mb-1 ">
+            أفضل المواهب الحرة 
+            </p>
+            <p className="   text-[17px]  text-[#0404040] me-4  mb-1 ">
+            في منطقة الشرق الأوسط وشمال أفريقيا
+            </p>
+            <p className="  text-3xl  text-[#49daf9] mb-4  ">
+            لتنمية عملك
+            </p>
+          </div>
         </div>
         <Image className=" mt-5 ms-[-5px]" src={personb} alt="" />
       </div>

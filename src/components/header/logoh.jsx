@@ -18,8 +18,8 @@ function Logoh() {
         />
       </div>
       <span
-        className={`  ltr:sm:hidden ltr:ms-4 ${
-          i18n.language === "ar" ? "riyadBank" : ""
+        className={`ltr:sm:hidden ltr:ms-4 rtl:ms-3 rtl:sm:ms-0 sm:ms-0 ${
+          i18n.language === "ar" ? "riyadBank " : ""
         }`}
       >
         {/* The ultimate */}
