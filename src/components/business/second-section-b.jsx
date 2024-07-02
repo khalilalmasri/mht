@@ -7,10 +7,9 @@ const Second_section_b = () => {
       <div className="sm:w-1/2 mx-6 sm:mx-auto ">
         <Image className="w-full h-full  sm:pe-6" src={budget} alt="" />
       </div>
-      <div className="sm:w-1/2  ">
+      <div className="sm:w-1/2 rtl:hidden ">
         <div className="flex">
-          <div className="w-1/6 sm:hidden"></div>
-          {" "}
+          <div className="w-1/6 sm:hidden"></div>{" "}
           <p className=" text-3xl sm:text-5xl fontAbsolute  text-[#74f6d7] sm:ps-20 sm:mb-1">
             Simplify{" "}
           </p>
@@ -24,11 +23,30 @@ const Second_section_b = () => {
         </p>
 
         <p className=" text-[12px] sm:text-[18px] font-large mt-2 text-[#4f4f4f] sm:ps-20 ">
-          Increase the cost Efficiency with our Project-Based Payments, C Enjoy
-          the freedom of choosing when, where, and how you work. Mhtaref.com
-          enables you to set your own schedule, determine your rates, and select
-          projects that align with your skills and interests. Embrace the
-          freelance lifestyle on your own terms.
+          Increase the cost Efficiency with our Project-Based Payments,
+          Companies can hire the best freelancers on a per-project basis,
+          avoiding the long-term financial commitment of a salaried employee.
+        </p>
+      </div>
+      <div className="sm:w-1/2 ltr:hidden ">
+        <div className="flex">
+          <div className="w-1/6 sm:hidden"></div>{" "}
+          <p className=" text-3xl sm:text-5xl riyadBank  text-[#74f6d7] sm:ps-20 sm:mb-1">
+            بساطة{" "}
+          </p>
+          <p className=" text-start  riyadBank sm:text-3xl sm:ms-1 mt-[10px]  sm:mt-[20px]">
+            التخطيط المالي{" "}
+          </p>
+          <div className=" sm:hidden"></div>
+        </div>
+        <p className="  sm:ps-20 riyadBank sm:text-3xl sm:mt-[-10px]">
+          وإدارته بشفافية
+        </p>
+
+        <p className=" text-[12px] riyadBank sm:text-[18px] font-large mt-2 text-[#4f4f4f] sm:ps-20 ">
+          زيادة كفاءة التكلفة مع دفعات المشاريع لدينا، يمكن للشركات توظيف أفضل
+          العاملين المستقلين على أساس مشروعي، مما يجنبها التزامات مالية طويلة
+          الأجل لموظف راتبي.
         </p>
       </div>
     </div>
