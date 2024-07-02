@@ -14,7 +14,7 @@ function IndependenceFleelancer() {
               {/* Your Path to */}
               {t("slider.Your_Path_to")}
             </p>
-            <h2 className={` text-6xl sm:text-7xl sm:mt-[-3px] font-extrabold text-[#040404] sm:tracking-wide ${i18n.language === 'ar' ? 'riyadBank' : 'fontAbsolute' }`}>
+            <h2 className={` text-6xl sm:text-7xl sm:mt-[-3px] font-extrabold text-[#040404] sm:tracking-wide ${i18n.language === 'ar' ? 'd_ar' : 'fontAbsolute' }`}>
               {/* independence */}
               {t("slider.independence")}
             </h2>

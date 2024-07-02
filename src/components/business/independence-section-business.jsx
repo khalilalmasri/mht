@@ -20,7 +20,7 @@ function IndependenceBusiness() {
           <div className="  mt-9 sm:mt-28 ms-[-100px] sm:ms-[-125px]">
             <h2
               className={`text-3xl  sm:text-7xl rtl:text-right    text-[#49daf9] ${
-                i18n.language === "ar" ? "riyadBank" : "fontAbsolute"
+                i18n.language === "ar" ? "d_ar" : "fontAbsolute"
               }`}
             >
               {t("slider.hire")}
@@ -35,7 +35,7 @@ function IndependenceBusiness() {
             </p>
             <p
               className={` text-xl sm:text-5xl text-[#49daf9] mb-28 sm:mb-4 sm:me-2 ${
-                i18n.language === "ar" ? "riyadBank" : "fontAbsolute"
+                i18n.language === "ar" ? "d_ar" : "fontAbsolute"
               }`}
             >
               {/* To grow your business. */}

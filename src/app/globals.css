@@ -22,10 +22,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "d-ar";
+  src: url("../../public/asset/4_1D.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 
 
+.d_ar{font-family: d-ar}
 .riyadBank{font-family: alfont_com_riyad-bank-Bold}
 .samsungBold{font-family: SamsungSans-Bold}
 .fontAbsolute{font-family: AbsoluteRegular}

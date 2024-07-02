@@ -31,7 +31,7 @@ const Third_section_B = () => {
       <div className="sm:w-1/2 ltr:hidden riyadBank   ">
         <div className="flex">
           <div className="w-1/12 sm:hidden"></div>
-          <p className=" text-4xl sm:text-6xl   text-[#74f6d7]  ">زيادة</p>
+          <p className=" text-4xl sm:text-6xl d_ar  text-[#74f6d7]  ">زيادة</p>
           <p className="  sm:text-2xl mt-3 sm:mt-5 ps-1">الإنتاجية والتوسع </p>
         </div>
         <p className="   sm:text-2xl sm:ms-28 mt-[-15px]">لنمو متميز.</p>

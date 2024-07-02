@@ -21,7 +21,7 @@ const First_section_B = () => {
             <p className=" rtl:hidden text-3xl sm:text-5xl fontAbsolute  text-[#74f6d7] ps-2 ">
               freelance
             </p>{" "}
-            <p className=" ltr:hidden text-base sm:text-5xl riyadBank  text-[#74f6d7] ps-2 ">
+            <p className=" ltr:hidden text-base sm:text-5xl d_ar  text-[#74f6d7] ps-2 ">
               العمل الحر
             </p>{" "}
             <div className="w-1/6 sm:hidden"></div>
