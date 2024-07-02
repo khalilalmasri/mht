@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import traingle from "../../public/icons/traingle.svg";
+import traingle from "../../../public/icons/traingle.svg";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 

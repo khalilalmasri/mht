@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 function IndependenceFleelancer() {
   const { t , i18n } = useTranslation("global");
   return (
-    <div className={`bg-[#faf6ac]  my-6 ms-4 me-4 sm:me-16 sm:ms-12 text-[24px] text-[#040404] rounded-2xl ${i18n.language === 'ar' ? 'riyadBank' : 'SamsungOne-bold' }`}>
+    <div dir="ltr" className={` bg-[#faf6ac]  my-6 ms-4 me-4 sm:me-16 sm:ms-12 text-[24px] text-[#040404] rounded-2xl ${i18n.language === 'ar' ? 'riyadBank' : 'SamsungOne-bold' }`}>
       <div className="sm:position-relative sm:relative content flex flex-col sm:flex-row sm:justify-between  ms-6">
         <div>
           <div className=" mt-6 sm:mt-44 text-center sm:text-start ">

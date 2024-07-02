@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function Formr() {
-  const { t } = useTranslation("global");
+  const { t , i18n } = useTranslation("global");
   const [Name, setName] = useState("");
   const [profession, setProfession] = useState("");
   const [email, setEmail] = useState("");
@@ -32,7 +32,11 @@ function Formr() {
   };
 
   return (
-    <div className=" SamsungOne-700 mt-6 sm:mt-10  flex text-center justify-center ">
+    <div className={`  mt-6 sm:mt-10  flex text-center justify-center ${
+        i18n.language === "ar"
+          ? "riyadBank "
+          : "SamsungOne-700"
+      }`}>
       <form
         className=" flex flex-col text-center justify-center gap-2 w-4/5 sm:w-2/3"
         onSubmit={handleSubmit}

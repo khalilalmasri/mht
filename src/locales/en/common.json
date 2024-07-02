@@ -6,7 +6,10 @@
             "Your_Path_to" :"Your Path to",
             "independence":"independence",
             "desc":"Join Mhtaref.com and unlock a world of freelance opportunities!",
-            "The_ultimate":"The ultimate freelancing marketplace."
+            "The_ultimate":"The ultimate freelancing marketplace.",
+            "hire":"hire",
+            "the_best":"the best freelance talent in the MENA region",
+            "To_grow_your_business.":"To grow your business."
         },
        "desc":{
        "Access_to_a_Global_Client_Base":"Access to a Global Client Base",
@@ -25,7 +28,9 @@
               "Name" : "Name",
               "Profession": "Profession",
               "Email_address": "Email address"
-       }
+       } ,
+       "logo": { "first_line" :" The ultimate " , 
+       "second_line" : "freelancing marketplace.  "}
        
     
 }
