@@ -31,7 +31,7 @@ const Second_section_b = () => {
       <div className="sm:w-1/2 ltr:hidden ">
         <div className="flex">
           <div className="w-1/6 sm:hidden"></div>{" "}
-          <p className=" text-3xl sm:text-5xl d_ar  text-[#74f6d7] sm:ps-20 sm:mb-1">
+          <p className=" text-5xl sm:text-7xl d_ar ms-16 sm:ms-0 text-[#74f6d7] sm:ps-20 sm:mb-1">
             بساطة{" "}
           </p>
           <p className=" text-start  riyadBank sm:text-3xl sm:ms-1 mt-[10px]  sm:mt-[20px]">
@@ -39,7 +39,7 @@ const Second_section_b = () => {
           </p>
           <div className=" sm:hidden"></div>
         </div>
-        <p className="  sm:ps-20 riyadBank sm:text-3xl sm:mt-[-10px]">
+        <p className=" ps-15 sm:ps-20 riyadBank sm:text-3xl mt-[-10px] sm:mt-[-20px]">
           وإدارته بشفافية
         </p>
 

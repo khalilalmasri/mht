@@ -29,12 +29,17 @@ const Third_section_B = () => {
         </p>
       </div>
       <div className="sm:w-1/2 ltr:hidden riyadBank   ">
-        <div className="flex">
+        <div className="flex  ">
           <div className="w-1/12 sm:hidden"></div>
-          <p className=" text-4xl sm:text-6xl d_ar  text-[#74f6d7]  ">زيادة</p>
+          <p className=" text-5xl sm:text-7xl d_ar ms-20 sm:ms-0  text-[#74f6d7]  ">
+            زيادة
+          </p>
           <p className="  sm:text-2xl mt-3 sm:mt-5 ps-1">الإنتاجية والتوسع </p>
         </div>
-        <p className="   sm:text-2xl sm:ms-28 mt-[-15px]">لنمو متميز.</p>
+        <div className="w-1/12 sm:hidden"></div>
+        <p className="   sm:text-2xl sm:ms-0 text-start ms-28 mt-[-10px] sm:mt-[-25px]">
+          لنمو متميز.
+        </p>
         <p className=" text-[12px] sm:text-[18px]  mt-2 text-[#4f4f4f] sm:pe-20 ">
           قم بتوسيع قوى العمل الخاصة بك بسرعة مع محترف. من خلال محترف، يمكنك
           العثور بسرعة على المواهب المناسبة جاهزة للانطلاق بالعمل.

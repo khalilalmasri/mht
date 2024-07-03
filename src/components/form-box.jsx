@@ -18,8 +18,8 @@ const Form_box = () => {
       </div>
       <div className="w-full h-[30px] sm:h-[50px] bg-[#0e9c95] rounded-t-2xl p-2">
         <p
-          className={` text-white    sm:ms-16  ${
-            i18n.language === "ar" ? "d_ar sm:text-7xl " : "fontAbsolute tracking-[0.1em] sm:text-5xl "
+          className={` text-white ms-2   sm:ms-16  ${
+            i18n.language === "ar" ? " d_ar text-5xl sm:text-9xl leading-1 mt-[-10px] sm:mt-[-25px] " : "fontAbsolute tracking-[0.1em] sm:text-5xl "
           }`}
         >
           {/* Is coming soon */}

@@ -18,36 +18,34 @@ function IndependenceBusiness() {
             alt=""
           />
           <div className="  mt-9 sm:mt-28 ml-[-125px]">
-          <div className={`${
-                i18n.language === "ar" ? "pr-8 " : ""
-              } `}>
-            <h2
-              className={`text-3xl  sm:text-7xl  text-[#49daf9] ${
-                i18n.language === "ar" ? "d_ar text-end  " : "fontAbsolute"
-              }`}
-            >
-              {" "}
-              
-              {t("slider.hire")}
-            </h2>
-            <p
-              className={`text-[#0404040]   mb-1 ${
-                i18n.language === "ar"
-                  ? "riyadBank text-end text-2xl  "
-                  : "SamsungOne-bold text-3xl me-4 "
-              }`}
-            >
-              {/* the best freelance talent in the MENA region */}
-              {t("slider.the_best")}
-            </p>
-            <p
-              className={`text-5xl text-[#49daf9] mb-4 me-2 ${
-                i18n.language === "ar" ? "d_ar" : "fontAbsolute"
-              }`}
-            >
-              {/* To grow your business. */}
-              {t("slider.To_grow_your_business.")}
-            </p> </div>
+            <div className={`${i18n.language === "ar" ? "pr-8 " : ""} `}>
+              <h2
+                className={`text-3xl  sm:text-7xl  text-[#49daf9] ${
+                  i18n.language === "ar" ? "d_ar text-end  " : "fontAbsolute"
+                }`}
+              >
+                {" "}
+                {t("slider.hire")}
+              </h2>
+              <p
+                className={`text-[#0404040]   mb-1 ${
+                  i18n.language === "ar"
+                    ? "riyadBank text-end text-2xl  "
+                    : "SamsungOne-bold text-3xl me-4 "
+                }`}
+              >
+                {/* the best freelance talent in the MENA region */}
+                {t("slider.the_best")}
+              </p>
+              <p
+                className={`text-5xl text-[#49daf9] mb-4 me-2 ${
+                  i18n.language === "ar" ? "d_ar pl-6" : "fontAbsolute"
+                }`}
+              >
+                {/* To grow your business. */}
+                {t("slider.To_grow_your_business.")}
+              </p>{" "}
+            </div>
           </div>
         </div>
       </div>
@@ -69,7 +67,9 @@ function IndependenceBusiness() {
           </div>
 
           <div className=" ltr:hidden">
-            <h2 className=" text-5xl d_ar font-extrabold text-[#49daf9]">وَظِّف</h2>
+            <h2 className=" text-5xl d_ar font-extrabold text-[#49daf9]">
+              وَظِّف
+            </h2>
             <p className="   text-[17px]  text-[#0404040] me-4  mb-1 ">
               أفضل المواهب الحرة
             </p>

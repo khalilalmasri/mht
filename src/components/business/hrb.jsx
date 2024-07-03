@@ -6,7 +6,7 @@ const HrB = () => {
           Your development, expansion and success partner.{" "}
         </h1>
         <h1 className=" ltr:hidden mb-2 riyadBank text-2xl ">
-          شريكك في التطوير،.{" "}
+          شريكك في التطوير،{" "}
         </h1>
         <h1 className=" ltr:hidden mb-2 riyadBank text-2xl ">
            التوسع والنجاح .{" "}
