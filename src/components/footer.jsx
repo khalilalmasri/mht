@@ -119,7 +119,7 @@ const Footer = () => {
             <div className="flex">
               <div className="w-full"></div>
 
-              <Link href={""} className="rtl:me-3  ">
+              <Link href={""} className="rtl:me-6  ">
                 <Image src={dadh} alt="" width={30} height={30}></Image>
               </Link>
             </div>

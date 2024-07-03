@@ -18,8 +18,8 @@ const Form_box = () => {
       </div>
       <div className="w-full h-[30px] sm:h-[50px] bg-[#0e9c95] rounded-t-2xl p-2">
         <p
-          className={` text-white text-2xl sm:text-5xl  sm:ms-16 tracking-[0.1em] ${
-            i18n.language === "ar" ? "d_ar " : "fontAbsolute"
+          className={` text-white    sm:ms-16  ${
+            i18n.language === "ar" ? "d_ar sm:text-7xl " : "fontAbsolute tracking-[0.1em] sm:text-5xl "
           }`}
         >
           {/* Is coming soon */}
@@ -39,8 +39,8 @@ const Form_box = () => {
             {t("form.desc")}
           </p>
           <p
-            className={` text-white mt-10 sm:mt-14 text-2xl sm:text-5xl tracking-[0.1em] ${
-              i18n.language === "ar" ? "riyadBank " : "fontAbsolute"
+            className={` text-white mt-10 sm:mt-14 text-4xl sm:text-5xl  ${
+              i18n.language === "ar" ? "d_ar " : "fontAbsolute tracking-[0.1em]"
             }`}
           >
             {/* Join the waiting list */}

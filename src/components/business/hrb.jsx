@@ -5,8 +5,11 @@ const HrB = () => {
         <h1 className="rtl:hidden mb-2">
           Your development, expansion and success partner.{" "}
         </h1>
-        <h1 className=" ltr:hidden mb-2 riyadBank ">
-          شريكك في التطوير، التوسعة والنجاح .{" "}
+        <h1 className=" ltr:hidden mb-2 riyadBank text-2xl ">
+          شريكك في التطوير،.{" "}
+        </h1>
+        <h1 className=" ltr:hidden mb-2 riyadBank text-2xl ">
+           التوسع والنجاح .{" "}
         </h1>
         {/* <h1 className="my-2"> expansion and </h1> */}
         {/* <h1 className="my-2"> success partner. </h1> */}
